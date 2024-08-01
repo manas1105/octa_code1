@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 88vh;
+  margin-bottom: 5vh;
+  background-image: url(pitch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+i:hover {
+  color: #41B06E;
+}
+a:hover{
+  color: #41B06E;
+}
+
+i {
+  margin-right: 10px;
+  color: whitesmoke;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-style: italic;
+  margin-right: 35px;
+}
+
+.navbar {
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.025);
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  font-size: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  color: white;
+  height: 25px;
+  width: 35px;
+  margin-right: 35px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+}
+
+.sec1 {
+  background-color: #003C43;
+  
+  height: 95vh;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  text-align: center;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 35px;
+}
+
+button {
+  height: 50px;
+  width: 120px;
+  margin-right: 45px;
+  border: 2px solid white;
+  background-color: #2cde65;
+  font-size: 15px;
+  color: azure;
+  border-radius: 45px;
+  position: absolute;
+  right: 0px;
+  top: 80px;
+}
+
+button:hover {
+  background-color: #88D66C;
+}
+
+#adj {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  text-justify: auto;
+  color: beige
+}
+
+#para {
+  text-align: justify;
+  font-size: 19px;
+  color: beige;
+  font-weight: normal;
+  padding-left: 32%;
+  padding-right: 2%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  word-spacing: 7px;
+  line-height: 40px;
+  text-justify: inter-word;
+}
+
+#para1 {
+  position: relative;
+
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  color: beige;
+  word-spacing: 7px;
+  line-height: 40px;
+  text-justify: inter-word;
+  bottom: 50px;
+}
+
+.abt {
+  background-image: url(DJI_0166-scaled.webp);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  height: 40%;
+  margin-left: 50px;
+  width: 30%;
+  bottom: 730px;
+  border: 8px solid beige;
+}
+
+.ab1 {
+  background-image: url(istockphoto-157187875-170667a.webp);
+  left: 100px;
+  align-items: last baseline;
+  background-size: cover;
+  background-position: right;
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  bottom: 420px;
+  height: 42%;
+  width: 29%;
+  border: 8px solid beige;
+  padding-right: 5%;
+
+}
+
+
+.train {
+  background-color: #77B0AA;
+  
+  padding-bottom: 40px;
+}
+
+.he {
+  text-align: center;
+  font-size: 40px;
+  color: beige;
+  margin-bottom: 2%;
+}
+
+.wrapper {
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+}
+
+.image {
+ 
+  height: 300px;
+  width: 300px;
+}
+
+.box1 {
+  background-color: aliceblue;
+  width: 316px;
+  border: 8px solid beige;
+}
+
+.box2 {
+  background-color: aliceblue;
+  width: 316px;
+  border: 8px solid beige;
+}
+
+.box3 {
+  background-color: aliceblue;
+  width: 316px;
+  border: 8px solid beige;
+}
+
+
+.PARA {
+  padding: 5px;
+  font-size: 20px;
+  color: #071952;
+}
+
+footer {
+  height: 20vh;
+  background-color:#021526;
+}
+
+.cont{
+  /*margin-top: 20px;*/
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.man{
+  font-size: 20px;
+  text-align: center;
+  color:#95D2B3;
+  margin-top: 10px;
+}
+
+.list1 ul li , .list2 ul li , .list3 ul li{
+  list-style: none;
+  text-align: center;
+  color: beige;
+  padding: 5px;
+}
